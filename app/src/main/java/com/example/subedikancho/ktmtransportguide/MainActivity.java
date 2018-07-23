@@ -26,9 +26,6 @@ public class MainActivity extends AppCompatActivity {
         btnClick.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this,SearchActivity.class);
-//                startActivity(intent);
-////                finish();
                 EditText eSource = findViewById(R.id.eSource);
                 String source = eSource.getText().toString();
 
